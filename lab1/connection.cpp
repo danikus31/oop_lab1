@@ -3,10 +3,17 @@
 #include <iostream>
 #include <vector> 
 #include <string>
+#include <limits>
+#include <fstream>
 #include "VariadicTable.h"
 using namespace std;
 
-
+static void pressToMenu() {
+    cin.ignore();
+    cout << "press enter to menu";
+    cin.get();
+    system("cls");
+}
 
 struct Bilding {
     string name;
@@ -19,5 +26,6 @@ struct employer {
     string surname;
     short mark;
     short age;
-    short inversity_id;
+    short unversity_id;
 };
+

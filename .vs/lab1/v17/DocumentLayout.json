@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\programming\\cpp\\oop_lab1\\",
+  "WorkspaceRootPath": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\programming\\cpp\\oop_lab1\\lab1\\organization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|solutionrelative:lab1\\organization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\programming\\cpp\\oop_lab1\\lab1\\connection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\connection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|solutionrelative:lab1\\connection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\programming\\cpp\\oop_lab1\\lab1\\organization.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|solutionrelative:lab1\\organization.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\programming\\cpp\\oop_lab1\\lab1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB311E40-6AC4-4AA9-BA88-80F688C3FB6E}|lab1\\lab1.vcxproj|solutionrelative:lab1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "organization.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\oop_lab1\\lab1\\organization.cpp",
+              "DocumentMoniker": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.cpp",
               "RelativeDocumentMoniker": "lab1\\organization.cpp",
-              "ToolTip": "C:\\programming\\cpp\\oop_lab1\\lab1\\organization.cpp",
+              "ToolTip": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.cpp",
               "RelativeToolTip": "lab1\\organization.cpp",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -51,9 +51,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "connection.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\oop_lab1\\lab1\\connection.cpp",
+              "DocumentMoniker": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\connection.cpp",
               "RelativeDocumentMoniker": "lab1\\connection.cpp",
-              "ToolTip": "C:\\programming\\cpp\\oop_lab1\\lab1\\connection.cpp",
+              "ToolTip": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\connection.cpp",
               "RelativeToolTip": "lab1\\connection.cpp",
               "ViewState": "AgIAAAEAAAAAAAAAAIAwwBcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -64,27 +64,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "organization.h",
-              "DocumentMoniker": "C:\\programming\\cpp\\oop_lab1\\lab1\\organization.h",
+              "DocumentMoniker": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.h",
               "RelativeDocumentMoniker": "lab1\\organization.h",
-              "ToolTip": "C:\\programming\\cpp\\oop_lab1\\lab1\\organization.h",
+              "ToolTip": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\organization.h",
               "RelativeToolTip": "lab1\\organization.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-14T15:05:27.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T15:05:27.253Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\oop_lab1\\lab1\\Source.cpp",
+              "DocumentMoniker": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\Source.cpp",
               "RelativeDocumentMoniker": "lab1\\Source.cpp",
-              "ToolTip": "C:\\programming\\cpp\\oop_lab1\\lab1\\Source.cpp",
+              "ToolTip": "C:\\Users\\danikus\\source\\repos\\oop_lab1\\lab1\\Source.cpp",
               "RelativeToolTip": "lab1\\Source.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-14T14:16:59.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T14:16:59.28Z"
             }
           ]
         }

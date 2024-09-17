@@ -7,7 +7,7 @@ void organization::showBildings()
 {
     system("cls");
     if (universitys.size()) {
-        cout << "Total universitys: " << universitys.size() << "\n";
+        cout << "Number of universitys: " << universitys.size() << "\n";
         VariadicTable<short, string, short, short, float> vt({ "ID", "Name", "founders date", "students", "avrage mark"}, 10);
         for (size_t i = 0; i < universitys.size(); ++i) {
             universitys[i].numberOfStudents = 0;
@@ -33,8 +33,6 @@ void organization::showEmploys()
 {
     system("cls");
     if (students.size()) {
-        cout << students.size();
-
         cout << "Count of students = " << students.size() << "\n";
         VariadicTable<string, string, short, float, short, string> vt({ "Name", "Surname", "age", "mark", "uid", "university"}, 10);
         for (size_t i = 0; i < students.size(); ++i) {

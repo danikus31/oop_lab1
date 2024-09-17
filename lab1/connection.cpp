@@ -6,7 +6,9 @@
 #include <limits>
 #include <fstream>
 #include "VariadicTable.h"
+
 using namespace std;
+
 
 static void pressToMenu() {
     cin.ignore();
@@ -18,13 +20,15 @@ static void pressToMenu() {
 struct Bilding {
     string name;
     short fyear;
+    short numberOfStudents;
+    float avrageMark;
 };
 
 
 struct employer {
     string name;
     string surname;
-    short mark;
+    float mark;
     short age;
     short unversity_id;
 };

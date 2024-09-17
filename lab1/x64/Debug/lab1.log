@@ -1,2 +1,49 @@
-﻿  Source.cpp
+﻿  organization.cpp
+C:\programming\cpp\oop_lab1\lab1\organization.cpp(22,23): warning C4267: 'argument': conversion from 'size_t' to 'short', possible loss of data
+C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(93,37): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'organization.cpp')
+      C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(93,37):
+      the template instantiation context (the oldest one first) is
+          C:\programming\cpp\oop_lab1\lab1\organization.cpp(24,12):
+          see reference to function template instantiation 'void VariadicTable<short,std::string,short,short,float>::print<std::ostream>(StreamType &)' being compiled
+          with
+          [
+              StreamType=std::ostream
+          ]
+              C:\programming\cpp\oop_lab1\lab1\organization.cpp(24,17):
+              see the first reference to 'VariadicTable<short,std::string,short,short,float>::print' in 'organization::showBildings'
+  
+C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(281,21): warning C4244: 'return': conversion from 'double' to 'size_t', possible loss of data
+  (compiling source file 'organization.cpp')
+      C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(281,21):
+      the template instantiation context (the oldest one first) is
+          C:\programming\cpp\oop_lab1\lab1\organization.cpp(11,59):
+          see reference to class template instantiation 'VariadicTable<short,std::string,short,short,float>' being compiled
+          C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(338,10):
+          while compiling class template member function 'void VariadicTable<short,std::string,short,short,float>::size_columns(void)'
+              C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(85,21):
+              see the first reference to 'VariadicTable<short,std::string,short,short,float>::size_columns' in 'VariadicTable<short,std::string,short,short,float>::print'
+              C:\programming\cpp\oop_lab1\lab1\organization.cpp(24,17):
+              see the first reference to 'VariadicTable<short,std::string,short,short,float>::print' in 'organization::showBildings'
+          C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(352,13):
+          see reference to function template instantiation 'void VariadicTable<short,std::string,short,short,float>::size_each<_Ty&>(TupleType,std::vector<size_t,std::allocator<size_t>> &)' being compiled
+          with
+          [
+              _Ty=std::tuple<short,std::string,short,short,float>,
+              TupleType=std::tuple<short,std::string,short,short,float> &
+          ]
+          C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(332,9):
+          see reference to function template instantiation 'void VariadicTable<short,std::string,short,short,float>::size_each<0,_Ty&,void>(TupleType,std::vector<size_t,std::allocator<size_t>> &,std::integral_constant<size_t,0>)' being compiled
+          with
+          [
+              _Ty=std::tuple<short,std::string,short,short,float>,
+              TupleType=std::tuple<short,std::string,short,short,float> &
+          ]
+          C:\programming\cpp\oop_lab1\lab1\VariadicTable.h(315,20):
+          see reference to function template instantiation 'size_t VariadicTable<short,std::string,short,short,float>::sizeOfData<short>(const T &,void *)' being compiled
+          with
+          [
+              T=short
+          ]
+  
   lab1.vcxproj -> C:\programming\cpp\oop_lab1\x64\Debug\lab1.exe

@@ -1,16 +1,9 @@
-
-
-
 #include "connection.cpp"
 #include "organization.h"
-#include "people.h"
-
-
 
 int main() {
 
     organization universitys;
-    people students;
 
     int menuOption;
     system("cls");
@@ -28,24 +21,24 @@ int main() {
 
         switch (menuOption) {
         case 1:
-            universitys.show();
+            universitys.showBildings();
             break;
         case 2:
-            universitys.add_new();
+            universitys.addNewBilding();
             break;
         case 3:
-            students.show();
+            universitys.showEmploys();
             break;
         case 4:
-            students.add_new();
+            universitys.addNewEmploys();
             break;
         case 5:
-            if (universitys.save_to_file() && students.save_to_file()) {
+            if (universitys.save_Bildings_to_file() && universitys.save_employes_to_file()) {
                 cout << "Date au fost salvate cu succes!\n\n";
             }
             break;
         case 6:
-            if (universitys.load_from_file() && students.load_from_file()) {
+            if (universitys.load_Bildings_from_file() && universitys.load_employes_from_file()) {
                 cout << "Datele au fost incarcate cu succes!\n\n";
             }
             break;

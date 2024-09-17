@@ -128,13 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="organization.cpp" />
-    <ClCompile Include="people.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="connection.cpp" />
     <ClInclude Include="organization.h" />
-    <ClInclude Include="people.h" />
     <ClInclude Include="VariadicTable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

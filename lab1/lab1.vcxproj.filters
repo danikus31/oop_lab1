@@ -21,9 +21,6 @@
     <ClCompile Include="organization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="people.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VariadicTable.h">
@@ -34,9 +31,6 @@
     </ClInclude>
     <ClInclude Include="connection.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="people.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

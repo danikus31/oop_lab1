@@ -27,17 +27,23 @@ int main() {
             universitys.addNewBilding();
             break;
         case 3:
-            universitys.showEmploys();
+            universitys.edditBilding();
             break;
         case 4:
-            universitys.addNewEmploys();
+            universitys.showEmploys();
             break;
         case 5:
+            universitys.addNewEmploys();
+            break;
+        case 6:
+            universitys.edditEmploer();
+            break;
+        case 7:
             if (universitys.save_Bildings_to_file() && universitys.save_employes_to_file()) {
                 cout << "Date au fost salvate cu succes!\n\n";
             }
             break;
-        case 6:
+        case 8:
             if (universitys.load_Bildings_from_file() && universitys.load_employes_from_file()) {
                 cout << "Datele au fost incarcate cu succes!\n\n";
             }

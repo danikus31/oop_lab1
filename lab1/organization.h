@@ -16,6 +16,8 @@ public:
 	void addNewEmploys();
 	void showBildings();
 	void showEmploys();
+	void edditBilding();
+	void edditEmploer();
 	int save_Bildings_to_file();
 	int load_Bildings_from_file();
 	int save_employes_to_file();

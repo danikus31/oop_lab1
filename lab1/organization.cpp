@@ -90,6 +90,35 @@ void organization::addNewEmploys()
 
 
 
+
+void organization::edditBilding() {
+
+}
+
+
+void organization::edditEmploer() {
+    system("cls");
+    int userid; 
+    cout << "Introduceti ID-ul studentului\n";
+    cin >> userid;
+
+    employer new_student;
+    cout << "introduceti datele noi\n";
+    cout << "Introduceti Numele\n";
+    cin >> new_student.name;
+    cout << "Introduceti Prenomele\n";
+    cin >> new_student.surname;
+    cout << "Indtroduceti visrta\n";
+    cin >> new_student.age;
+    cout << "Introduceti nota media\n";
+    cin >> new_student.mark;
+    cout << "Introduceti ID la Universitate\n";
+    cin >> new_student.unversity_id;
+
+    students[userid] = new_student;
+}
+
+
 int organization::save_Bildings_to_file(){
     ofstream file(bilding_filename);
     if (file.is_open()) {

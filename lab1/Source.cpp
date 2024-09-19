@@ -11,10 +11,12 @@ int main() {
         cout << "\nIntroduceti optiunea dorita:\n";
         cout << "1. Afisare universitati\n";
         cout << "2. Adauga o universitate\n";
-        cout << "3. Afisati studentii\n";
-        cout << "4. Adaugati un student\n";
-        cout << "5. Salvare datele\n";
-        cout << "6. Incarcare datele\n";
+        cout << "3. Editarea unei universitati\n";
+        cout << "4. Afisati studentii\n";
+        cout << "5. Adaugati un student\n";
+        cout << "6. editarea unui student\n";
+        cout << "7. Salvare datele\n";
+        cout << "8. Incarcare datele\n";
         cout << "0. Iesire\n";
         cout << "Optiune: ";
         cin >> menuOption;

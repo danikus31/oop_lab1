@@ -34,9 +34,9 @@ void organization::showEmploys()
     system("cls");
     if (students.size()) {
         cout << "Count of students = " << students.size() << "\n";
-        VariadicTable<string, string, short, float, short, string> vt({ "Name", "Surname", "age", "mark", "uid", "university"}, 10);
+        VariadicTable<short, string, string, short, float, short, string> vt({ "ID", "Name", "Surname", "age", "mark", "uid", "university"}, 10);
         for (size_t i = 0; i < students.size(); ++i) {
-            vt.addRow(students[i].name, students[i].surname, students[i].age, students[i].mark, students[i].unversity_id, universitys[students[i].unversity_id].name);
+            vt.addRow(i, students[i].name, students[i].surname, students[i].age, students[i].mark, students[i].unversity_id, universitys[students[i].unversity_id].name);
         }
         vt.print(std::cout);
 
@@ -92,6 +92,18 @@ void organization::addNewEmploys()
 
 
 void organization::edditBilding() {
+    system("cls");
+    int UID;
+    cout << "Introduceti ID-ul Universitatii\n";
+    cin >> UID;
+    Bilding editet_university;
+    cout << "introduceti datele noi\n";
+    cout << "Introduceti Numele universitatii\n";
+    cin >> editet_university.name;
+    cout << "Introduceti anul fundatiei\n";
+    cin >> editet_university.fyear;
+    universitys[UID] = editet_university;
+    system("cls");
 
 }
 
@@ -116,6 +128,8 @@ void organization::edditEmploer() {
     cin >> new_student.unversity_id;
 
     students[userid] = new_student;
+
+    system("cls");
 }
 
 
